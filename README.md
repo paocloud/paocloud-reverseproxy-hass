@@ -11,7 +11,7 @@ Sets up an SSL proxy with NGINX web server. It is typically used to forward SSL 
 Make sure you have generated a certificate before you start this add-on. The [Duck DNS](https://github.com/home-assistant/hassio-addons/tree/master/duckdns) add-on can generate a Let's Encrypt certificate that can be used by this add-on.
 
 ## Configuration
-1. This is example of configuration.
+This is example of configuration.
 ```
 tunel_host: <open_vpn_server>
 port: <port>
@@ -19,14 +19,6 @@ username: <username>
 secret: <password>
 ```
 You must add this configuration into "Configuration" tab.
-
-2. Add certificate for connect to open vpn server in Data/ directory.
-```
-- Client Certificate : cert_export_ovpn-client.crt
-- Private Key : cert_export_ovpn-client.key
-- CA :  cert_export_ovpn.crt
-```
-Make sure file name is same as example above.
 
 ## About us
 PaOCLOUD CO., LTD.<br/>
