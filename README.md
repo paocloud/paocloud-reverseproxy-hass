@@ -8,8 +8,6 @@ Sets up an SSL proxy with NGINX and redirects traffic from port 10443 with custo
 
 Sets up an SSL proxy with NGINX web server. It is typically used to forward SSL internet traffic while allowing unencrypted local traffic to/from a Home Assistant instance.
 
-Make sure you have generated a certificate before you start this add-on. The [Duck DNS](https://github.com/home-assistant/hassio-addons/tree/master/duckdns) add-on can generate a Let's Encrypt certificate that can be used by this add-on.
-
 ## Configuration
 This is example of configuration.
 ```
