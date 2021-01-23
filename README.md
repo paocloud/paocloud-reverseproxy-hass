@@ -21,13 +21,13 @@ secret: <password>
 You must add this configuration into "Configuration" tab.
 
 ## About us
-PaOCLOUD CO., LTD.
-8 Moo 8 Bankhuan
-Langsuan Chumphon
-86110 TH
-Email : (hass@paocloud.co.th)[mailto:hass@paocloud.co.th]
-Tel : (+66-77979386)[tel:+66-77979386]
-FB : (Paocloud Co., Ltd.)[https://fb.com/paocloudcoltd]
+PaOCLOUD CO., LTD.<br/>
+8 Moo 8 Bankhuan<br/>
+Langsuan Chumphon<br/>
+86110 TH<br/>
+Email : [hass@paocloud.co.th](mailto:hass@paocloud.co.th)<br/>
+Tel : [+66-77979386](tel:+66-77979386)<br/>
+FB : [Paocloud Co., Ltd.](https://fb.com/paocloudcoltd)<br/>
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
