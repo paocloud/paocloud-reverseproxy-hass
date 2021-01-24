@@ -1,7 +1,7 @@
 #!/usr/bin/env bashio
 set -e
 
-DOMAIN=$(bashio::config 'tunel_host')
+DOMAIN=$(bashio::config 'tunnel_host')
 PORT=$(bashio::config 'port')
 URS=$(bashio::config 'username')
 PWD=$(bashio::config 'secret')
