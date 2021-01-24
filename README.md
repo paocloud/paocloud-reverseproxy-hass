@@ -11,7 +11,7 @@ Sets up an SSL proxy with NGINX web server. It is typically used to forward SSL 
 ## Configuration
 This is example of configuration.
 ```
-tunel_host: <open_vpn_server>
+tunnel_host: <open_vpn_server>
 port: <port>
 username: <username>
 secret: <password>
