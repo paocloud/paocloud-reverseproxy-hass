@@ -10,13 +10,13 @@
   "host_network": true,
   "privileged": ["NET_ADMIN"],
   "options": {
-    "tunel_host": "tunnel.hass.paocloud.tech",
+    "tunnel_host": "tunnel.hass.paocloud.tech",
     "port": 11194,
     "username": "",
     "secret": ""
   },
   "schema": {  
-    "tunel_host": "str",
+    "tunnel_host": "str",
     "port": "port",
     "username": "str",
     "secret": "str"
