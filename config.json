@@ -1,6 +1,6 @@
 {
   "name": "HASS RevProxy By PaOCLOUD",
-  "version": "1.0.0b",
+  "version": "1.0.1",
   "slug": "paocloud_reverseproxy",
   "description": "Home Assistant Reverse Proxy By PaOCLOUD CO., LTD.",
   "url": "https://hass.paocloud.tech/",

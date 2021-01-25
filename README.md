@@ -18,6 +18,14 @@ secret: <password>
 ```
 You must add this configuration into "Configuration" tab.
 
+```
+http:
+  use_x_forwarded_for: true
+  trusted_proxies: 
+    - 10.1.255.255
+```
+You must add this configuration into "main configuration" for see real-user IP.
+
 ## About us
 PaOCLOUD CO., LTD.<br/>
 8 Moo 8 Bankhuan<br/>

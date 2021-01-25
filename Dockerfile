@@ -18,7 +18,4 @@ RUN chmod a+x /run_service.sh
 RUN mkdir config
 ADD data /config/
 
-RUN chmod 777 config/conf.ovpn
-RUN chmod 777 config/passwd
-
 CMD [ "/run.sh" ]
