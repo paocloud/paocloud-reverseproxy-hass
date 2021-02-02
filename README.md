@@ -8,23 +8,6 @@ Sets up an SSL proxy with NGINX and redirects traffic from port 443 with custom 
 
 Sets up an SSL proxy with NGINX web server. It is typically used to forward SSL internet traffic while allowing unencrypted local traffic to/from a Home Assistant instance.
 
-## Configuration
-This is example of configuration.
-```
-tunnel_host: <open_vpn_server>
-port: <port>
-username: <username>
-secret: <password>
-```
-You must add this configuration into "Configuration" tab.
-
-```
-http:
-  use_x_forwarded_for: true
-  trusted_proxies: 
-    - 10.1.255.255
-```
-You must add this configuration into "main configuration" for see real-user IP.
 
 ## About us
 PaOCLOUD CO., LTD.<br/>
