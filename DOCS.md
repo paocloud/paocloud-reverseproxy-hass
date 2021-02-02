@@ -3,7 +3,7 @@
 ## Configuration
 This is example of configuration.
 ```
-tunnel_host: <open_vpn_server>
+tunnel_host: <tunnel_server>
 port: <port>
 username: <username>
 secret: <password>
